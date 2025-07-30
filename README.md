@@ -74,3 +74,11 @@ Or from within Jupyter/Colab:
 ```bash
 !python "regression and models/forecast_ckd.py"
 ```
+##  Contact Me
+
+For questions, feedback, or collaboration inquiries, feel free to reach out:
+
+-  Email: itamar.zernitsky@gmail.com  
+-  GitHub: [@Itamarzer](https://github.com/Itamarzer)
+
+---
