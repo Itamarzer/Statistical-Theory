@@ -59,4 +59,17 @@ ckd_df = pd.read_csv('Chronic_Kidney_Disease.csv')
 Note: Some scripts in the project assume these files exist in the project root. You can also move them using shutil or adjust read_csv() paths in code.
 ```
 
-##
+## Running the Code
+All .py files are executable directly, including those in subfolders. Example:
+
+```bash
+python "regression and models/forecast_ckd.py"
+python "regression and models/regression_ckd.py"
+python add_ckd_to_hd.py
+```
+
+Or from within Jupyter/Colab:
+
+```bash
+!python "regression and models/forecast_ckd.py"
+```
