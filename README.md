@@ -56,8 +56,9 @@ import pandas as pd
 # Load the data into pandas
 heart_df = pd.read_csv('heart_disease_uci.csv')
 ckd_df = pd.read_csv('Chronic_Kidney_Disease.csv')
-Note: Some scripts in the project assume these files exist in the project root. You can also move them using shutil or adjust read_csv() paths in code.
 ```
+Note: Some scripts in the project assume these files exist in the project root. You can also move them using shutil or adjust read_csv() paths in code and also refer to them as only df like in the population and statistical tests folder.
+
 
 ## Running the Code
 All .py files are executable directly, including those in subfolders. Example:
