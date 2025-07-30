@@ -42,3 +42,21 @@ git clone https://github.com/Itamarzer/Statistical-Theory.git
 cd Statistical-Theory
 pip install -r requirements.txt
 
+
+
+##  2. Download the Datasets
+If not already present, download the datasets using Python (in Colab, Jupyter, or any terminal):
+
+python
+Copy
+Edit
+import pandas as pd
+
+# UCI dataset download links (manual step if needed)
+!wget -O heart_disease_uci.csv https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data
+!wget -O Chronic_Kidney_Disease.csv https://archive.ics.uci.edu/ml/machine-learning-databases/00383/Chronic_Kidney_Disease.csv
+
+# Load the data into pandas
+heart_df = pd.read_csv('heart_disease_uci.csv')
+ckd_df = pd.read_csv('Chronic_Kidney_Disease.csv')
+Note: Some scripts in the project assume these files exist in the project root. You can also move them using shutil or adjust read_csv() paths in code.
