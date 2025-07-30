@@ -42,8 +42,7 @@ git clone https://github.com/Itamarzer/Statistical-Theory.git
 cd Statistical-Theory
 pip install -r requirements.txt
 
----
-
+```
 ##  2. Download the Datasets
 If not already present, download the datasets using Python (in Colab, Jupyter, or any terminal):
 
