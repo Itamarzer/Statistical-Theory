@@ -82,3 +82,4 @@ For questions, feedback, or collaboration inquiries, feel free to reach out:
 -  GitHub: [@Itamarzer](https://github.com/Itamarzer)
 
 ---
+note that there are some parts in the github codes and files that are not mentioned in the article itself like why is the logistic regression is the best model, we also run models like random forests, Xgboost and more. Second there are some EDA files that are not mentioned in the article itself but were presented in the class presentations in short.
